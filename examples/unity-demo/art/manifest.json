@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "characters": {
+      "title": "Characters",
+      "intro": "Seen from above, centred on the point that moves."
+    },
+    "ui": {
+      "title": "Interface",
+      "intro": "Icons only: buttons and text are drawn by the game."
+    }
+  },
+  "priorities": {
+    "P1": "needed for the first playable",
+    "P2": "can follow"
+  },
+  "assets": [
+    {
+      "for": {
+        "dir": [
+          "down",
+          "up",
+          "side"
+        ]
+      },
+      "path": "characters/hero_walk_{dir}",
+      "frames": 4,
+      "width": 64,
+      "height": 64,
+      "name": "Hero · walk {dir}",
+      "section": "characters",
+      "priority": "P1",
+      "notes": "4 frames at 8 fps. Side frames face right; the game mirrors them.",
+      "color": [
+        90,
+        120,
+        200
+      ]
+    },
+    {
+      "for": {
+        "icon": {
+          "coin": {
+            "priority": "P1"
+          },
+          "heart": {
+            "priority": "P1"
+          },
+          "pause": {
+            "priority": "P2"
+          }
+        }
+      },
+      "path": "ui/icon_{icon}.png",
+      "width": 32,
+      "height": 32,
+      "name": "Icon · {icon}",
+      "section": "ui",
+      "priority": "{icon.priority}",
+      "notes": "Shown at 16–24 points on a dark background.",
+      "color": [
+        200,
+        170,
+        60
+      ]
+    },
+    {
+      "path": "sfx/coin.wav",
+      "name": "Coin pickup",
+      "section": "ui",
+      "priority": "P2",
+      "seconds": 0.4,
+      "notes": "Short WAV, mono, no silence at the start."
+    }
+  ]
+}

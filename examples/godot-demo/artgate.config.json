@@ -1,0 +1,17 @@
+{
+  "title": "godot-demo",
+  "manifest": "art/manifest.json",
+  "assets": "assets/art",
+  "inbox": {
+    "env": "GODOT_DEMO_ART_INBOX",
+    "folder": "art_inbox"
+  },
+  "index": {
+    "adapter": "godot",
+    "out": "scripts/art_index.gd"
+  },
+  "page": {
+    "intro": "Every image and sound the game needs, with sizes, frames and file names.",
+    "meta": []
+  }
+}

@@ -1,0 +1,8 @@
+# artgate: the artist's inbox and the built page
+art_inbox/
+.artgate/
+# Made by `artgate placeholders` and `artgate index`, and by Godot itself
+assets/art/
+scripts/art_index.gd
+scripts/art_index.gd.uid
+.godot/

@@ -1,0 +1,18 @@
+# artgate: the artist's inbox and the built page
+art_inbox/
+.artgate/
+# Made by `artgate placeholders` and `artgate index`, and by Unity itself
+Assets/Resources/
+Assets/Resources.meta
+Assets/Scripts/ArtIndex.cs
+Assets/Scripts/ArtIndex.cs.meta
+Assets/Editor/
+Assets/Editor.meta
+Library/
+Temp/
+Logs/
+UserSettings/
+Packages/
+obj/
+*.csproj
+*.sln

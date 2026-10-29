@@ -1,0 +1,21 @@
+{
+  "title": "unity-demo",
+  "manifest": "art/manifest.json",
+  "assets": "Assets/Resources/Art",
+  "inbox": {
+    "env": "UNITY_DEMO_ART_INBOX",
+    "folder": "art_inbox"
+  },
+  "index": {
+    "adapter": "unity",
+    "out": "Assets/Scripts/ArtIndex.cs",
+    "sprites": {
+      "pixelsPerUnit": 100,
+      "filter": "bilinear"
+    }
+  },
+  "page": {
+    "intro": "Every image and sound the game needs, with sizes, frames and file names.",
+    "meta": []
+  }
+}
